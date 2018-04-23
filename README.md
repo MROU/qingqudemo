@@ -40,7 +40,7 @@ RecyclerView添加一个header即可，但是如果需要它在顶部变成悬�
 
 这里使用了轻趣的api，使用网络抓取获得，原作公司拥有所有权利。本程序仅供测试学习，用于其他用途所造成的纠纷与本人无关。
 
-
+轻趣：https://www.qingqu.top/
 
 **页面显示图：**
 
@@ -48,3 +48,6 @@ RecyclerView添加一个header即可，但是如果需要它在顶部变成悬�
 <img src="https://github.com/MROU/qingqudemo/blob/master/app/src/main/res/mipmap-hdpi/demo2.jpg" width="50%" height="50%">
 <img src="https://github.com/MROU/qingqudemo/blob/master/app/src/main/res/mipmap-hdpi/demo3.jpg" width="50%" height="50%">
 <img src="https://github.com/MROU/qingqudemo/blob/master/app/src/main/res/mipmap-hdpi/demo4.jpg" width="50%" height="50%">
+
+参考链接：
+https://www.diycode.cc/topics/408
