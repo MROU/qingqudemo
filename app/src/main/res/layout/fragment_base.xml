@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/flist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:scrollbars="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/white"
+        >
+
+        <ImageView
+            android:id="@+id/civ_header_item"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_author_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小妖手工"
+            android:layout_toRightOf="@id/civ_header_item"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_time_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6小时前"
+            android:layout_below="@id/tv_author_item"
+            android:layout_toRightOf="@id/civ_header_item"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gray_b9adb1"
+            />
+
+        <ImageView
+            android:id="@+id/iv_one_item"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_slow_motion_video_black_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            />
+         <ImageView
+            android:id="@+id/iv_two_item"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_wallpaper_black_24dp"
+            android:layout_toLeftOf="@id/iv_one_item"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+
+</FrameLayout>
