@@ -21,15 +21,9 @@ RecyclerView添加一个header即可，但是如果需要它在顶部变成悬�
 
 **关于我：**
 
-喜欢用技术的方式去解决问题，深度认同MVP的创业模式，可以搭建android app，熟悉js，如最近的小程序，在生活方面，喜欢尝试不同技能，是个彻底的不正经热血青年。
+喜欢用技术的方式去解决问题，可以搭建android app，熟悉js，如最近的小程序，在生活方面，喜欢尝试不同技能。
 
-微博：https://weibo.com/2415138442/profile
 
-自频道：http://i.youku.com/startplan
-
-个人网站：http://www.startplan.cn/
-
-微信公众号：ncistedu
 
 
 开发的插件： https://addons.mozilla.org/zh-CN/firefox/addon/photos-download/?src=userprofile
